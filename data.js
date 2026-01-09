@@ -1,11 +1,21 @@
 import HeroImage from "/assets/Fauzan.png";
+import foto from "/assets/fauzan1.jpg";
 import Tools8 from "/assets/tools/github.png";
 import Instagram from "/assets/tools/Instagram.png";
 import Linkedin from "/assets/tools/Linkedin.png";
 import WhatsApp from "/assets/tools/WhatsApp.png";
+import curicullumvitae from "/assets/FAUZAN ILYAS ALMEYDA_CV ATS_2026_1.pdf";
 
 const Image = {
   HeroImage,
+};
+
+export const file = {
+  cv: curicullumvitae,
+};
+
+export const myimage = {
+  image: foto,
 };
 
 export const social = [
