@@ -4,7 +4,7 @@ import Tools8 from "/assets/tools/github.png";
 import Instagram from "/assets/tools/Instagram.png";
 import Linkedin from "/assets/tools/Linkedin.png";
 import WhatsApp from "/assets/tools/WhatsApp.png";
-import curicullumvitae from "/assets/FAUZAN ILYAS ALMEYDA_CV ATS_2026_1.pdf";
+import curicullumvitae from "/assets/fauzan.pdf";
 
 const Image = {
   HeroImage,
