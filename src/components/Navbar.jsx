@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+
 const navbar = () => {
   const [active, setActive] = useState(false);
   useEffect(() => {
