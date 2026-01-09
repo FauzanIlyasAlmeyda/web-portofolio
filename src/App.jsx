@@ -24,7 +24,7 @@ function App() {
             </div>
             <div className="flex items-center sm:gap-4 gap-2 ">
               <a
-                href="../public/assets/CV Fauzan Ilyas Almeyda.pdf" download="CV Fauzan Ilyas Almeyda.pdf"
+                href="/assets/CV Fauzan Ilyas Almeyda.pdf" download="CV Fauzan Ilyas Almeyda."
                 className="bg-blue-500 rounded-2xl p-4 hover:bg-blue-950"
               >
                 Unduh CV <i className="ri-download-line ri-lg"></i>
@@ -54,7 +54,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-3 px-7 w-full py-4 items-center md:grid-cols-1 ">
             <div>
               <img
-                src="../public/assets/fauzan1.jpg"
+                src="/assets/fauzan1.jpg"
                 alt="Fauzan1"
                 className="w-90 rounded-2xl lg:ml-14"
               />
