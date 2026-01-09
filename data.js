@@ -22,15 +22,15 @@ export const social = [
   {
     id: 1,
     gambar: Instagram,
-    link: "",
+    link: "https://www.instagram.com/__fauzan4?igsh=MWRuNzR5OWJ4cGM3Zw==",
   },
   {
     id: 2,
     gambar: Linkedin,
     link: "https://www.linkedin.com/in/fauzan-ilyas-almeyda-75695928b",
   },
-  { id: 3, gambar: WhatsApp, link: "" },
-  { id: 4, gambar: Tools8, link: "" },
+  { id: 3, gambar: WhatsApp, link: "https://wa.link/v8eyv1" },
+  { id: 4, gambar: Tools8, link: "https://github.com/FauzanIlyasAlmeyda" },
 ];
 
 export default Image;

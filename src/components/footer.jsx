@@ -8,16 +8,16 @@ export default function Footer() {
         </p>
 
         <div className="flex gap-6 text-sm">
-          <a href="#" className="hover:text-white transition">
+          <a href="https://github.com/FauzanIlyasAlmeyda" className="hover:text-white transition">
             GitHub
           </a>
-          <a href="#" className="hover:text-white transition">
+          <a href="https://www.linkedin.com/in/fauzan-ilyas-almeyda-75695928b" className="hover:text-white transition">
             LinkedIn
           </a>
-          <a href="#" className="hover:text-white transition">
+          <a href="https://www.instagram.com/__fauzan4?igsh=MWRuNzR5OWJ4cGM3Zw==" className="hover:text-white transition">
             Instagram
           </a>
-          <a href="#" className="hover:text-white transition">
+          <a href="https://wa.link/v8eyv1" className="hover:text-white transition">
             WhatsApp
           </a>
         </div>
