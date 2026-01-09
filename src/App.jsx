@@ -99,7 +99,7 @@ function App() {
         id="pengalaman"
       >
         <h1 className="text-4xl/snug font-bold mb-2">Pengalaman</h1>
-        <p className="w-2/5 text-base/loose opacity-50 mb-4">
+        <p className="w-2/5 md:text-lg text-sm-base/loose opacity-50 mb-4">
           berikut ini merupakan pengalaman akademik dan non-akademik
         </p>
         <div className="pengalaman-box grid lg:grid-cols-3 md:grid-cols-3 gap-3 px-4 py-10 ">
@@ -124,7 +124,7 @@ function App() {
           <h1 className="text-4xl/snug font-bold mb-2">
             Tools yang saya pakai
           </h1>
-          <p className="w-2/5 text-base/loose opacity-50 mb-4">
+          <p className="md:w-2/5 md:text-lg text-sm-base/loose opacity-50 mb-4">
             berikut ini merupakan tools yang saya gunakan
           </p>
           <div className="tools-box grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-5 2xl:grid-cols-7 ">
@@ -138,7 +138,7 @@ function App() {
                   alt=" tools image"
                   className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900"
                 />
-                <div>
+                <div className="text-sm  ">
                   <h4>{tool.nama}</h4>
                   <p>{tool.ket}</p>
                 </div>
