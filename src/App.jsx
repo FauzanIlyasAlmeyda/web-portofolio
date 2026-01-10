@@ -138,7 +138,7 @@ function App() {
                   alt=" tools image"
                   className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900"
                 />
-                <div className="text-sm  ">
+                <div className="text-sm">
                   <h4>{tool.nama}</h4>
                   <p>{tool.ket}</p>
                 </div>
