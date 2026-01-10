@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div className="container mx-auto ">
-        <div className="hero grid md:grid-cols-2 pt-10 items-center xl:gap-0 gap-6 grid-cols-1 px-10">
+        <div className="hero grid lg:grid-cols-2 pt-10 items-center xl:gap-0 gap-6 grid-cols-1 px-10">
           <div className="ml-2">
             <div>
               <h1 className="mb-6 text-5xl/tight font-bold transition-transform duration-300 hover:scale-110 ">
@@ -41,7 +41,7 @@ function App() {
           <img
             src={dataimage.HeroImage}
             alt="Fauzan"
-            className="w-125 md:ml-auto rounded-2xl"
+            className="w-125 md:ml-auto mx-auto rounded-2xl"
           />
         </div>
       </div>
@@ -52,12 +52,12 @@ function App() {
       >
         <h1 className="text-4xl/snug font-bold mb-2">Tentang saya</h1>
         <div>
-          <div className="grid lg:grid-cols-2 gap-3 px-7 w-full py-4 items-center md:grid-cols-1 ">
+          <div className="grid gap-3 px-7 w-full py-4 items-center md:grid-cols-2 grid-cols-1 ">
             <div>
               <img
                 src={myimage.image}
                 alt="Fauzan1"
-                className="w-90 rounded-2xl lg:ml-14"
+                className="w-90 rounded-2xl lg:ml-14 mx-auto"
               />
             </div>
             <div className="mr-auto">
@@ -138,7 +138,7 @@ function App() {
                   alt=" tools image"
                   className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900"
                 />
-                <div className="text-sm">
+                <div className=" text-[11px] sm:text-sm">
                   <h4>{tool.nama}</h4>
                   <p>{tool.ket}</p>
                 </div>

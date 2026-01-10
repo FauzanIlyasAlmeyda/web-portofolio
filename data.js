@@ -4,7 +4,7 @@ import Tools8 from "/assets/tools/github.png";
 import Instagram from "/assets/tools/Instagram.png";
 import Linkedin from "/assets/tools/Linkedin.png";
 import WhatsApp from "/assets/tools/WhatsApp.png";
-import curicullumvitae from "/assets/fauzan.pdf";
+import curicullumvitae from "/assets/fauzanilyasalmeyda_CV.pdf";
 
 const Image = {
   HeroImage,
