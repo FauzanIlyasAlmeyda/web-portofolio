@@ -1,8 +1,15 @@
+import Maintenance from "./Maintenance";
+
+function App() {
+  return <Maintenance />;
+}
+
+/* Konten asli - uncomment untuk mengaktifkan kembali
 import dataimage from "../data";
 import {file,myimage} from "../data";
 import { listTools, listProyek, social, pengalaman } from "../data";
 
-function App() {
+function AppOriginal() {
   return (
     <>
       <div className="container mx-auto ">
@@ -178,5 +185,6 @@ function App() {
     </>
   );
 }
+*/
 
 export default App;
